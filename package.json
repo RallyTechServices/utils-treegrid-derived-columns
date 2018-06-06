@@ -1,0 +1,30 @@
+{
+  "name": "@agile-central-technical-services/utils-treegrid-derived-columns",
+  "version": "0.0.0",
+  "description": "Extend Rally.ui.grid.TreeGridView to support \"derived columns\" (columns not part of data model)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RallyTechServices/utils-treegrid-derived-columns.git"
+  },
+  "keywords": [
+    "rally",
+    "agile",
+    "central",
+    "technical",
+    "services",
+    "tree",
+    "grid",
+    "derived",
+    "columns"
+  ],
+  "author": "Tyr Johanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RallyTechServices/utils-treegrid-derived-columns/issues"
+  },
+  "homepage": "https://github.com/RallyTechServices/utils-treegrid-derived-columns#readme"
+}
