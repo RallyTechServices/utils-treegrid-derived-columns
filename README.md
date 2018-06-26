@@ -1,11 +1,13 @@
-# utils-treegrid-derived-columns
+# @agile-central-technical-services/utils-treegrid-derived-columns
 
 ![This is a screenshot](https://github.com/RallyTechServices/utils-treegrid-derived-columns/raw/master/screenshot.png)
 
-This module provides a Rally.ui.grid.TreeGridView that addes support for a `derivedColumnCfgs`
+This module provides overrides for a Rally.ui.grid.TreeGridView that addes support for a `derivedColumnCfgs`
 config that accepts column definitions that are "derived" from the model data, but are not a field
 on the model itself. This can be because the columns use a dataIndex that was added to the data after load,
 or because the column is a template column that renders without using a dataIndex.
+
+This can also be used with a `rallygridboard` in `grid` mode.
 
 In the screenshot, `Name` and `Release` are standard columns of the PortfolioItem, selected using the
 `rallygridboardfieldpicker` plugin, the rest of the columns are "derived" based on calculations after the
@@ -16,6 +18,10 @@ will also cooporate with the `rallygridboardfieldpicker` plugin.  They won't sho
 picker, but will preserve the order among themselves and any fields added by the field picker.
 
 ## Example usage
+```
+npm install @agile-central-technical-services/utils-treegrid-derived-columns
+```
+
 ```
 addGrid: function() {
     this.add({
