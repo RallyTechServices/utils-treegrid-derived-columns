@@ -47,7 +47,7 @@ addGrid: function() {
     });
 },
 
-getColumnCfgs() {
+getColumnCfgs: function() {
         // Currently mostly derived columns. The column picker will add other standard columns
         return ['FormattedID', 'Name'].concat(this.getDerivedColumnCfgs());
     },
