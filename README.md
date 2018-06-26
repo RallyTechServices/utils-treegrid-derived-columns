@@ -37,7 +37,7 @@ addGrid: function() {
         ],
         gridConfig: {
             store: store,
-            columnCfgs: this.getColumns(),
+            columnCfgs: this.getColumnCfgs(),
             derivedColumnCfgs: this.getDerivedColumnCfgs()
         }
     });
