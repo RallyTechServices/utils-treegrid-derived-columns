@@ -17,11 +17,15 @@ The derived column size and ordering will be saved and restored with the grid st
 will also cooporate with the `rallygridboardfieldpicker` plugin.  They won't show up in the field
 picker, but will preserve the order among themselves and any fields added by the field picker.
 
+## Installation
+1. Install using npm (or yarn) `npm install @agile-central-technical-services/utils-treegrid-derived-columns`
+2. Add the file to the `javascript` section of `config.json`
+    ```
+     "javascript": [
+        "node_modules/@agile-central-technical-services/utils-treegrid-derived-columns/index.js",
+        ...
+    ```
 ## Example usage
-```
-npm install @agile-central-technical-services/utils-treegrid-derived-columns
-```
-
 ```
 addGrid: function() {
     this.add({
